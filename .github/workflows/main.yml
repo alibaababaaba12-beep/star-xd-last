@@ -1,0 +1,28 @@
+agroglobal/
+├── public/
+│   └── agroglobal-logo.svg          # Logo file
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx               # Navigation header
+│   │   ├── Hero.jsx                 # Hero section
+│   │   ├── Features.jsx             # Feature highlights
+│   │   ├── ProductCard.jsx          # Individual product card
+│   │   ├── ProductsSection.jsx      # Products display & filtering
+│   │   ├── RecipeCard.jsx           # Recipe card
+│   │   ├── RecipesSection.jsx       # Recipes display
+│   │   ├── RecipeModal.jsx          # Recipe details modal
+│   │   ├── Cart.jsx                 # Shopping cart sidebar
+│   │   ├── Contact.jsx              # Contact section
+│   │   ├── Footer.jsx               # Footer
+│   │   └── Logo.jsx                 # Logo component
+│   ├── data/
+│   │   ├── products.js              # Product data
+│   │   └── recipes.js               # Recipe data
+│   ├── App.jsx                      # Main app component
+│   ├── main.jsx                     # Entry point
+│   └── index.css                    # Global styles
+├── package.json                     # Dependencies
+├── vite.config.js                   # Vite configuration
+├── tailwind.config.js               # Tailwind CSS config
+├── postcss.config.js                # PostCSS config
+└── index.html                       # HTML template
